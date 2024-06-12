@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/furkan/mavsdk-takeoff_and_land -isystem /usr/local/include/mavsdk 
+CXX_INCLUDES = -I/home/furkan/mavsdk-aisoft -isystem /usr/local/include/mavsdk 
 

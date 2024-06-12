@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/furkan/mavsdk-takeoff_and_land/coordinates.cpp" "/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o"
-  "/home/furkan/mavsdk-takeoff_and_land/takeoff_and_land.cpp" "/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o"
+  "/home/furkan/mavsdk-aisoft/coordinates.cpp" "/home/furkan/mavsdk-aisoft/build/CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o"
+  "/home/furkan/mavsdk-aisoft/takeoff_and_land.cpp" "/home/furkan/mavsdk-aisoft/build/CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

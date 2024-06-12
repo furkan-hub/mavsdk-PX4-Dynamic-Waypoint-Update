@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/furkan/mavsdk-takeoff_and_land
+CMAKE_SOURCE_DIR = /home/furkan/mavsdk-aisoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/furkan/mavsdk-takeoff_and_land/build
+CMAKE_BINARY_DIR = /home/furkan/mavsdk-aisoft/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/takeoff_and_land.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/takeoff_and_land.dir/flags.make
 
 CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o: CMakeFiles/takeoff_and_land.dir/flags.make
 CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o: ../takeoff_and_land.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o -c /home/furkan/mavsdk-takeoff_and_land/takeoff_and_land.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furkan/mavsdk-aisoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o -c /home/furkan/mavsdk-aisoft/takeoff_and_land.cpp
 
 CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furkan/mavsdk-takeoff_and_land/takeoff_and_land.cpp > CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furkan/mavsdk-aisoft/takeoff_and_land.cpp > CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.i
 
 CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furkan/mavsdk-takeoff_and_land/takeoff_and_land.cpp -o CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furkan/mavsdk-aisoft/takeoff_and_land.cpp -o CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.s
 
 CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o: CMakeFiles/takeoff_and_land.dir/flags.make
 CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o: ../coordinates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o -c /home/furkan/mavsdk-takeoff_and_land/coordinates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furkan/mavsdk-aisoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o -c /home/furkan/mavsdk-aisoft/coordinates.cpp
 
 CMakeFiles/takeoff_and_land.dir/coordinates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/takeoff_and_land.dir/coordinates.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furkan/mavsdk-takeoff_and_land/coordinates.cpp > CMakeFiles/takeoff_and_land.dir/coordinates.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furkan/mavsdk-aisoft/coordinates.cpp > CMakeFiles/takeoff_and_land.dir/coordinates.cpp.i
 
 CMakeFiles/takeoff_and_land.dir/coordinates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/takeoff_and_land.dir/coordinates.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furkan/mavsdk-takeoff_and_land/coordinates.cpp -o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furkan/mavsdk-aisoft/coordinates.cpp -o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.s
 
 # Object files for target takeoff_and_land
 takeoff_and_land_OBJECTS = \
@@ -96,7 +96,7 @@ takeoff_and_land: CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o
 takeoff_and_land: CMakeFiles/takeoff_and_land.dir/build.make
 takeoff_and_land: /usr/local/lib/libmavsdk.so.2.12.2
 takeoff_and_land: CMakeFiles/takeoff_and_land.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable takeoff_and_land"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/furkan/mavsdk-aisoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable takeoff_and_land"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/takeoff_and_land.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/takeoff_and_land.dir/clean:
 .PHONY : CMakeFiles/takeoff_and_land.dir/clean
 
 CMakeFiles/takeoff_and_land.dir/depend:
-	cd /home/furkan/mavsdk-takeoff_and_land/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/furkan/mavsdk-takeoff_and_land /home/furkan/mavsdk-takeoff_and_land /home/furkan/mavsdk-takeoff_and_land/build /home/furkan/mavsdk-takeoff_and_land/build /home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/takeoff_and_land.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/furkan/mavsdk-aisoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/furkan/mavsdk-aisoft /home/furkan/mavsdk-aisoft /home/furkan/mavsdk-aisoft/build /home/furkan/mavsdk-aisoft/build /home/furkan/mavsdk-aisoft/build/CMakeFiles/takeoff_and_land.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/takeoff_and_land.dir/depend
 

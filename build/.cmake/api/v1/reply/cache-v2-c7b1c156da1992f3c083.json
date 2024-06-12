@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/furkan/mavsdk-takeoff_and_land/build"
+			"value" : "/home/furkan/mavsdk-aisoft/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/furkan/mavsdk-takeoff_and_land"
+			"value" : "/home/furkan/mavsdk-aisoft"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/furkan/mavsdk-takeoff_and_land/build"
+			"value" : "/home/furkan/mavsdk-aisoft/build"
 		},
 		{
 			"name" : "takeoff_and_land_SOURCE_DIR",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/furkan/mavsdk-takeoff_and_land"
+			"value" : "/home/furkan/mavsdk-aisoft"
 		}
 	],
 	"kind" : "cache",

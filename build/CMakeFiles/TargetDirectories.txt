@@ -1,3 +1,3 @@
-/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/rebuild_cache.dir
-/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/edit_cache.dir
-/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles/takeoff_and_land.dir
+/home/furkan/mavsdk-aisoft/build/CMakeFiles/rebuild_cache.dir
+/home/furkan/mavsdk-aisoft/build/CMakeFiles/edit_cache.dir
+/home/furkan/mavsdk-aisoft/build/CMakeFiles/takeoff_and_land.dir

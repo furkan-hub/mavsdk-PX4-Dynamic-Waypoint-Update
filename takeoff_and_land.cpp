@@ -73,7 +73,7 @@ int main()
     // Surekli çalisan döngu
     while (true) {
         // Diger görevleri isleyin veya mesgul dönguyu önlemek için uyuyun
-        this_thread::sleep_for(chrono::seconds(1));
+        //this_thread::sleep_for(chrono::seconds(1));
     }
 
     return 0;

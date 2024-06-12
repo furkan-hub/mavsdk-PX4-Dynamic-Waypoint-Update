@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/furkan/mavsdk-takeoff_and_land/coordinates.cpp
+/home/furkan/mavsdk-aisoft/coordinates.cpp
 coordinates.h
-/home/furkan/mavsdk-takeoff_and_land/coordinates.h
+/home/furkan/mavsdk-aisoft/coordinates.h
 cmath
 -
 
-/home/furkan/mavsdk-takeoff_and_land/coordinates.h
+/home/furkan/mavsdk-aisoft/coordinates.h
 vector
 -
 
-/home/furkan/mavsdk-takeoff_and_land/takeoff_and_land.cpp
+/home/furkan/mavsdk-aisoft/takeoff_and_land.cpp
 chrono
 -
 cstdint
@@ -36,5 +36,5 @@ memory
 thread
 -
 coordinates.h
-/home/furkan/mavsdk-takeoff_and_land/coordinates.h
+/home/furkan/mavsdk-aisoft/coordinates.h
 

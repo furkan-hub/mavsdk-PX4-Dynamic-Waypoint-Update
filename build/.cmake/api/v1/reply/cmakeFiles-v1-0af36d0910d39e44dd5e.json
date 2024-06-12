@@ -704,8 +704,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/furkan/mavsdk-takeoff_and_land/build",
-		"source" : "/home/furkan/mavsdk-takeoff_and_land"
+		"build" : "/home/furkan/mavsdk-aisoft/build",
+		"source" : "/home/furkan/mavsdk-aisoft"
 	},
 	"version" : 
 	{

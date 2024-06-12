@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/furkan/mavsdk-takeoff_and_land
+CMAKE_SOURCE_DIR = /home/furkan/mavsdk-aisoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/furkan/mavsdk-takeoff_and_land/build
+CMAKE_BINARY_DIR = /home/furkan/mavsdk-aisoft/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/takeoff_and_land.dir/clean
 CMakeFiles/takeoff_and_land.dir/all:
 	$(MAKE) -f CMakeFiles/takeoff_and_land.dir/build.make CMakeFiles/takeoff_and_land.dir/depend
 	$(MAKE) -f CMakeFiles/takeoff_and_land.dir/build.make CMakeFiles/takeoff_and_land.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles --progress-num=1,2,3 "Built target takeoff_and_land"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/furkan/mavsdk-aisoft/build/CMakeFiles --progress-num=1,2,3 "Built target takeoff_and_land"
 .PHONY : CMakeFiles/takeoff_and_land.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/takeoff_and_land.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/furkan/mavsdk-aisoft/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/takeoff_and_land.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/furkan/mavsdk-takeoff_and_land/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/furkan/mavsdk-aisoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/takeoff_and_land.dir/rule
 
 # Convenience name for target.
