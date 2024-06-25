@@ -4,7 +4,7 @@
 
 const double EARTH_RADIUS = 6371.0;
 
-double calculate_bearing(const std::vector<double>& coord1, const std::vector<double>& coord2) {
+double calculate_bearing(std::vector<double> coord1, std::vector<double> coord2) {
     double lat1 = coord1[0] * M_PI / 180.0;
     double lon1 = coord1[1] * M_PI / 180.0;
     double lat2 = coord2[0] * M_PI / 180.0;
@@ -18,11 +18,12 @@ double calculate_bearing(const std::vector<double>& coord1, const std::vector<do
     double bearing = std::atan2(x, y);
     bearing = bearing * 180.0 / M_PI;
     bearing = std::fmod((bearing + 360.0), 360.0);
+    bearing = std::fmod((bearing + 180.0), 360.0);
 
     return bearing;
 }
 
-double haversine_distance(const std::vector<double>& coord1, const std::vector<double>& coord2) {
+double haversine_distance(std::vector<double> coord1, std::vector<double> coord2) {
     double lat1 = coord1[0] * M_PI / 180.0;
     double lon1 = coord1[1] * M_PI / 180.0;
     double lat2 = coord2[0] * M_PI / 180.0;
@@ -39,7 +40,7 @@ double haversine_distance(const std::vector<double>& coord1, const std::vector<d
     return distance;
 }
 
-std::vector<double> translate_coordinates(const std::vector<double>& coord, double bearing, double distance) {
+std::vector<double> translate_coordinates(std::vector<double> coord, double bearing, double distance) {
     double lat = coord[0] * M_PI / 180.0;
     double lon = coord[1] * M_PI / 180.0;
     double bearing_rad = bearing * M_PI / 180.0;
