@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o  -o takeoff_and_land  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmavsdk.so.2.12.2 
+/usr/bin/c++  -g   CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o  -o takeoff_and_land  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmavsdk.so.2.12.2 

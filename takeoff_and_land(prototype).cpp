@@ -158,3 +158,10 @@ int main() {
 
     // vector<double> new_coord = translate_coordinates(coord1, bearing_to_translate, distance_to_translate);
     // cout << "New Coordinates: [" << new_coord[0] << ", " << new_coord[1] << "]" << endl;
+
+
+auto result = mavlink_passthrough.send_command_long(command);
+    if (result != MavlinkPassthrough::Result::Success) {
+        cerr << "Mavlink mesajı gönderilemedi: " << result << '\n';
+        return 1;
+    }

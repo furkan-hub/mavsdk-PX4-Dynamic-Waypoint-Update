@@ -16,25 +16,3 @@ cmath
 vector
 -
 
-/home/furkan/mavsdk-aisoft/takeoff_and_land.cpp
-chrono
--
-cstdint
--
-mavsdk/mavsdk.h
--
-mavsdk/plugins/action/action.h
--
-mavsdk/plugins/telemetry/telemetry.h
--
-iostream
--
-future
--
-memory
--
-thread
--
-coordinates.h
-/home/furkan/mavsdk-aisoft/coordinates.h
-

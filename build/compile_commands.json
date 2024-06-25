@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/furkan/mavsdk-aisoft/build",
+  "command": "/usr/bin/c++   -I/home/furkan/mavsdk-aisoft -isystem /usr/local/include/mavsdk  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/takeoff_and_land.dir/takeoff_and_land.cpp.o -c /home/furkan/mavsdk-aisoft/takeoff_and_land.cpp",
+  "file": "/home/furkan/mavsdk-aisoft/takeoff_and_land.cpp"
+},
+{
+  "directory": "/home/furkan/mavsdk-aisoft/build",
+  "command": "/usr/bin/c++   -I/home/furkan/mavsdk-aisoft -isystem /usr/local/include/mavsdk  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/takeoff_and_land.dir/coordinates.cpp.o -c /home/furkan/mavsdk-aisoft/coordinates.cpp",
+  "file": "/home/furkan/mavsdk-aisoft/coordinates.cpp"
+}
+]
