@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/furkan/mavsdk-aisoft/coordinates.cpp
-coordinates.h
 /home/furkan/mavsdk-aisoft/coordinates.h
+vector
+-
+
+/home/furkan/mavsdk-aisoft/takeoff_and_land.cpp
+chrono
+-
+cstdint
+-
+mavsdk/mavsdk.h
+-
+mavsdk/plugins/action/action.h
+-
+mavsdk/plugins/telemetry/telemetry.h
+-
+mavsdk/plugins/mission_raw/mission_raw.h
+-
+mavsdk/plugins/mavlink_passthrough/mavlink_passthrough.h
+-
+iostream
+-
+future
+-
+memory
+-
+thread
+-
 cmath
 -
 vector
 -
-
-/home/furkan/mavsdk-aisoft/coordinates.h
-vector
+iomanip
 -
+coordinates.h
+/home/furkan/mavsdk-aisoft/coordinates.h
 
